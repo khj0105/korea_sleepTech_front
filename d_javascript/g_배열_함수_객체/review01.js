@@ -101,15 +101,16 @@ function displayTodos() {
 }
 
 //! === 프로젝트 실행 ===
-addTodo('자바스크립트 복습하기!');
-addTodo('자바 복습하기!!');
-addTodo('이력서 작성하기!');
-addTodo('자기소개서 작성 시작해보기?');
+addTodo('자바스크립트 복습하기!'); //1: 자바스크립트 복습하기! - 완료되지 않음
+addTodo('자바 복습하기!!'); // 1: 자바스크립트 복습하기! - 완료되지 않음, 2: 자바 복습하기!! - 완료되지 않음
+toggleTodo(1); // 1: 자바스크립트 복습하기! - 완료됨, 2: 자바 복습하기!! - 완료되지 않음
+//addTodo('이력서 작성하기!');
+//addTodo('자기소개서 작성 시작해보기?');
 
-toggleTodo(3);
+// toggleTodo(3);
 
-deleteTodo(3);
+// deleteTodo(3);
 
-addTodo('자격증 일정 알아보기');
+// addTodo('자격증 일정 알아보기');
 
-toggleTodo(1);
+// toggleTodo(1);
