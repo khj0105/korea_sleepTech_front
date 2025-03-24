@@ -105,7 +105,15 @@
 
   ? cf) .json 확장자 파일은 주석 불가!
 
-
+ package name: 프로젝트의 이름을 입력/ 기본값은 현재 디렉터리의 이름
+  version: 패키지의 시작 버전을 입력/ 기본값은 1.0.0
+  description: 프로젝트의 간단한 설명을 입력
+  entry point: 프로젝트의 메인 파일을 지정/ 기본값은 index.js
+  test command: 테스트를 실행할 때 사용할 명령어를 입력
+  git repository: 프로젝트의 Git 저장소 URL을 입력
+  keywords: 프로젝트를 설명하는 키워드를 쉼표로 구분하여 입력
+  author: 패키지의 저자 정보를 입력
+  license: 사용할 라이센스를 입력/ 기본값은 ISC
 
 ! 3. typescript
 : 타입스크립트를 설치 (npm 사용)
@@ -153,9 +161,6 @@
 
   ** npx tsc --init
 */ 
-
-
-
 
 
 //! 터미널 명령어
