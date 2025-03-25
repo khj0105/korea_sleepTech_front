@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 239, 239);
+}
+
+body {
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  justify-items: center;
+}
+.box {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.box h3 {
+  display: block;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  background-color: white;
+}
+
+.box input {
+  height: 20px;
+  background-color: white;
+  margin: 4px;
+  border: 1px solid #ccc;
+}
+
+.box button {
+  background-color: rgb(37, 58, 245);
+  color: white;
+  width: 250px;
+  height: 20px;
+  font-size: 10px;
+  border: 0px;
+  border-radius: 2px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.box .sign-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 10px;
+  background-color: white;
+}
+
+.box .sign-Container p {
+  margin: 0;
+  text-align: center;
+  background-color: white;
+}
+
+.box .sign-Container a {
+  color: rgb(37, 58, 245);
+  text-decoration: none;
+  background-color: white;
+}
+
+.box .sign-Container a:hover {
+  text-decoration: underline;
+}
