@@ -29,7 +29,7 @@ console.log('ts-node로 ts파일 생성하기');
 // : .gitignore 파일 생성
 
 //#node_modules 깃 업로드 방지
-//node_modules
+// node_modules
 // */node_modules
 
 //! 해당 프로젝트를 pull한 경우
