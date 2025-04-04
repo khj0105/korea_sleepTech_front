@@ -84,7 +84,7 @@ export const tmp = '';
 */
 
 //# 2. tsconfig.app.json
-// : TypeScript 설정 파일
+// : TypeScript 설정 파일(TypeScript 컴파일 옵션 관리, 자동완성 및 코드 탐색 지원, 파일 및 폴더 포함/제외, 디버깅 및 오류 표시, 멀티 프로젝트 설정 (workspace 사용 시))
 
 //# 3. vite.config.ts
 // : vite 설정 파일
